@@ -58,6 +58,24 @@
             @endforeach
         </tbody>
     </table>
+    <table class="table w-75 mx-auto my-5">
+        <thead>
+            <tr>
+                <th scope="col">Number</th>
+                <th scope="col">Description</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach($facts as $e)
+            <tr>
+                <td>{{$e->number}}</td>
+                <td>{{$e->description}}</td>
+                <td>filler</td>
+            </tr>
+            @endforeach
+        </tbody>
+    </table>
 
 </body>
 </html>
