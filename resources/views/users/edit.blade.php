@@ -4,7 +4,7 @@
 <h3 class="text-center">Edit User</h3>
     <form class="mx-auto w-75 my-2" action="/"  method="POST">
     @csrf
-        @method("POST")
+        @method("PUT")
         @if ($errors->any())
           <div class="alert alert-danger">
             <ul>

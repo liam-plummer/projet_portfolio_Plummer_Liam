@@ -54,7 +54,6 @@
                 <td>{{$e->language}}</td>
                 <td>{{$e->percentage}}</td>
                 <td>filler</td>
-
             </tr>
             @endforeach
         </tbody>
